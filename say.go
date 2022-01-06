@@ -1,4 +1,4 @@
-// package say provides functions to say phrase.
+// Package say provides functions to say phrase.
 package say
 
 import "fmt"
@@ -7,4 +7,8 @@ import "fmt"
 // the person that has been provided.
 func Hello(name string) string {
 	return fmt.Sprintf("Hello %s.", name)
+}
+
+func Bye(name string) string {
+	return fmt.Sprintf("Good bye %s.", name)
 }
